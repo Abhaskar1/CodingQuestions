@@ -11,7 +11,7 @@ public class SumOfFirstnNaturalNumbers
         sum=findSum(n);
         System.out.println("Sum of first "+n+" natural numbers is :"+sum);
     }
-    public static int findSum(int n){
+    private static int findSum(int n){
         if(n==0){
             return 0;
         }
